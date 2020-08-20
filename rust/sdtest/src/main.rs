@@ -16,6 +16,7 @@ use k210_shared::soc::sysctl;
 use k210_shared::soc::sleep::usleep;
 use k210_shared::soc::spi::SPIExt;
 use riscv_rt::entry;
+use core::str::Chars;
 
 /** GPIOHS GPIO number to use for controlling the SD card CS pin */
 const SD_CS_GPIONUM: u8 = 7;
@@ -95,13 +96,16 @@ fn main() -> ! {
     hexdump(&mut stdout, &buffer, 0);
 
     // Warning: uncommenting this will write to the SD card
-    /*
     let msg = b"Well! I've often seen a cat without a grin', thought Alice, 'but a grin without a cat! It's the most curious thing I ever saw in my life!'";
     let mut buffer = [0u8; 512];
     (&mut buffer[0..msg.len()]).copy_from_slice(msg);
     sd.write_sector(&mut buffer, sector).unwrap();
     writeln!(stdout, "sector {} succesfully written", sector).unwrap();
-    */
+
+    let mut read_buffer = [0u8; 512];
+    sd.read_sector(&mut read_buffer, sector);
+    let string = core::str::from_utf8(&read_buffer).unwrap();
+    writeln!(stdout, "{}", string);
 
     loop {}
 }

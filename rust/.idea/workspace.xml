@@ -30,7 +30,12 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="393e805a-4ef7-4b0b-aa8b-4d97ea65f343" name="Default Changelist" comment="" />
+    <list default="true" id="393e805a-4ef7-4b0b-aa8b-4d97ea65f343" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k210-shared/src/board/sdcard.rs" beforeDir="false" afterPath="$PROJECT_DIR$/k210-shared/src/board/sdcard.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdtest/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/sdtest/src/main.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +61,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RustProjectSettings">
@@ -69,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597892144451</updated>
-      <workItem from="1597892145800" duration="874000" />
+      <workItem from="1597892145800" duration="2964000" />
     </task>
     <servers />
   </component>
@@ -86,5 +97,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="528" y="45" width="928" height="1034" key="search.everywhere.popup" timestamp="1597903690248">
+      <screen x="67" y="34" width="1853" height="1046" />
+    </state>
+    <state x="528" y="45" width="928" height="1034" key="search.everywhere.popup/67.34.1853.1046@67.34.1853.1046" timestamp="1597903690248" />
   </component>
 </project>

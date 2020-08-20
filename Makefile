@@ -15,4 +15,5 @@ bin: elf
 	rust-objcopy $(elf) --strip-all -O binary $(bin)
 
 run: bin
+	sudo chmod -R 777 $(port)
 	python3 kflash.py -p $(port) -b 1500000 -t $(bin)
