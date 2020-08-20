@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/accelerometer/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/k210-shared/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/buffered-uart/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/cryptest/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dvp-ov/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/embgfx/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/game-of-life/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/glyph-mapping/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/k210-console/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/interrupt/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mandelbrot/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/rgbcontrol/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sdlcd/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sdtest/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/secp256k1-test/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/term-server/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/uart-passthrough/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/voxel/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/weather/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
